@@ -1,11 +1,8 @@
-icndb-csharp
-============
-
+icndb-csharp CLI version
+========================  
 C# API Wrapper for the Internet Chuck Norris Database: http://www.icndb.com/api/
 
-```csharp
-var response = ChuckNorris.API.Random(exclude: new string[] {"explicit"});
-var joke = response.Result;
+Thanks to joelmartinez for most of the work  
 
-Console.WriteLine(joke.Text);
+simply build then execute the exe from CLI to get a funny string
 ```
